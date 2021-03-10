@@ -1,0 +1,29 @@
+{
+    "name": "kazumacchi/request",
+    "description": "curl request and json response.",
+    "keywords": ["curl", "Json Response"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "ext-curl":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kazumacchi\\request\\": "src"
+        }
+    },
+    "homepage": "https://github.com/kazumacchi/",
+    "authors": [
+        {
+            "name": "k-nagama",
+            "email": "k.nagama0632@gmail.com",
+            "homepage": "https://github.com/kazumacchi",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/kazumacchi/request/",
+        "issues": "https://github.com/kazumacchi/request/issue/"
+    }
+}
